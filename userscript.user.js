@@ -22,7 +22,7 @@ if (window.top !== window.self) {
           (function () {
               const img = document.createElement("img");
               img.src = "https://cdn.discordapp.com/attachments/669939027537035297/1131644724529344542/hooky.png";
-              img.style = "position: absolute;left:334px;top:144px; image-rendering: pixelated; opacity: 1";
+              img.style = "position: absolute;left:334px;top:144px; width: 39px; height: 48px; image-rendering: pixelated; opacity: 1";
               console.log(img);
               return img;
           })())
