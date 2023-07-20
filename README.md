@@ -13,3 +13,5 @@ This is a [userScript](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/
 3. A tab will show up, asking you to install the script. Install.
 4. After you installed it, reload reddit
 5. Happy pixeling
+
+Also, you can toggle the image with the Alt key.
