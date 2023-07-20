@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/Place Overlay
 // @namespace    https://github.com/TotoShampoin/place-overlay-hypnohookup
-// @version      1.2.0
+// @version      1.2.1
 // @description  A visual overlay to show errors in tile colors of a desired image in r/place
 // @author       github.com/TotoShampoin
 // @match        https://garlic-bread.reddit.com/embed*
@@ -14,7 +14,7 @@ if (window.top !== window.self) {
       const overlay = (function () {
           const img = document.createElement("img");
           img.src = "https://cdn.discordapp.com/attachments/669939027537035297/1131644724529344542/hooky.png";
-          img.style = "position: absolute;left:334px;top:144px; width: 39px; height: 48px; image-rendering: pixelated; opacity: 1";
+          img.style = "position: absolute;left:296px;top:597px; width: 39px; height: 48px; image-rendering: pixelated; opacity: 1";
           console.log(img);
           return img;
       })();
