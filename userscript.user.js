@@ -21,7 +21,7 @@ if (window.top !== window.self) {
         .appendChild(
           (function () {
               const img = document.createElement("img");
-              img.src = "https://cdn.discordapp.com/attachments/506797613002129426/1131544052865699941/image.png";
+              img.src = "https://cdn.discordapp.com/attachments/669939027537035297/1131644724529344542/hooky.png";
               img.style = "position: absolute;left:334px;top:144px; image-rendering: pixelated; opacity: .5";
               console.log(img);
               return img;
