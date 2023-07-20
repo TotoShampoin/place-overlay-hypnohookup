@@ -8,9 +8,8 @@ This is a [userScript](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/
 
 ## Instructions
 
-1. First, download the [ViolentMonkey](https://violentmonkey.github.io) user script management plugin for your browser.
-  * For chrome/edge/vivaldi/brave browsers: [Chrome Web Store: Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
-  * For firefox: [Firfox Browser Add-ons: Violentmonkey](https://addons.mozilla.org/en-GB/firefox/addon/violentmonkey/)
-  * If you're on Safari, I don't have the time to support it right now, but the [TamperMonkey](https://www.tampermonkey.net/?ext=dhdg&browser=safari) plugin manager works on Safari and should work mostly the same way as ViolentMonkey, so give it a try.
-
-2. **TODO** Add instructions
+1. Download [https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo](Tampermonkey) (it's a chrome extension)
+2. Click on the [userscript](https://github.com/TotoShampoin/place-overlay-hypnohookup/blob/main/userscript.user.js)
+3. A tab will show up, asking you to install the script. Install.
+4. After you installed it, reload reddit
+5. Happy pixeling
