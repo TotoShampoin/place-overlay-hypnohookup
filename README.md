@@ -9,7 +9,7 @@ This is a [userScript](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/
 ## Instructions
 
 1. Download [https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo](Tampermonkey) (it's a chrome extension)
-2. Click on the [userscript](https://github.com/TotoShampoin/place-overlay-hypnohookup/blob/main/userscript.user.js)
+2. Click on the [userscript](https://github.com/TotoShampoin/place-overlay-hypnohookup/raw/main/userscript.user.js)
 3. A tab will show up, asking you to install the script. Install.
 4. After you installed it, reload reddit
 5. Happy pixeling
