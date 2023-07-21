@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/Place Overlay
 // @namespace    https://github.com/TotoShampoin/place-overlay-hypnohookup
-// @version      1.2.2
+// @version      1.2.3
 // @description  A visual overlay to show errors in tile colors of a desired image in r/place
 // @author       github.com/TotoShampoin
 // @match        https://garlic-bread.reddit.com/embed*
