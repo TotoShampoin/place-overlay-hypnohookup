@@ -14,4 +14,4 @@ This is a [userScript](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/
 4. After you installed it, reload reddit
 5. Happy pixeling
 
-Also, you can toggle the image with the Alt key.
+Also, you can toggle the image by pressing [T].

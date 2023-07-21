@@ -19,7 +19,7 @@ if (window.top !== window.self) {
         return img;
     })();
     window.addEventListener("keydown", e => {
-      if(e.key === "Alt") {
+      if(e.key === "t") {
         console.log(overlay.style.opacity)
         switch(overlay.style.opacity) {
           case "1": overlay.style.opacity = "0"; break;
