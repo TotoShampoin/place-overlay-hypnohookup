@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/Place Overlay relocator
 // @namespace    https://github.com/TotoShampoin/place-overlay-hypnohookup
-// @version      1.0.1
+// @version      1.1.0
 // @description  Same as the overlay, but with a hud to relocate easily
 // @author       github.com/TotoShampoin
 // @match        https://garlic-bread.reddit.com/embed*
@@ -29,7 +29,7 @@ if (window.top !== window.self) {
         const [x, y] = prompt("Enter the x, y new coordinates")
           .split(",")
           .map(s => parseInt(s));
-        overlay.style.left = `${x + 500}px`;
+        overlay.style.left = `${x + 1000}px`;
         overlay.style.top = `${y + 500}px`;
       }
     });
