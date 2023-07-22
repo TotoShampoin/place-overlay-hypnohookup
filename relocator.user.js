@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/Place Overlay relocator
 // @namespace    https://github.com/TotoShampoin/place-overlay-hypnohookup
-// @version      1.1.0
+// @version      1.4.0
 // @description  Same as the overlay, but with a hud to relocate easily
 // @author       github.com/TotoShampoin
 // @match        https://garlic-bread.reddit.com/embed*
