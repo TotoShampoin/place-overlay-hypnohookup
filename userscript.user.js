@@ -13,7 +13,7 @@ if (window.top !== window.self) {
   window.addEventListener('load', () => {
     const overlay = (function () {
         const img = document.createElement("img");
-        img.src = "https://cdn.discordapp.com/attachments/1131271629377392772/1132076481661653053/hookypolicepixel_punched.png";
+        img.src = "https://cdn.discordapp.com/attachments/1131271629377392772/1132616871129129041/HookyCop.png";
         img.style = "position: absolute;left:369px;top:872px; width: 16px; height: 22px; image-rendering: pixelated; opacity: 1";
         console.log(img);
         return img;
