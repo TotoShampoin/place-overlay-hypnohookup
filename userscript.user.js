@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/Place Overlay
 // @namespace    https://github.com/TotoShampoin/place-overlay-hypnohookup
-// @version      2.2.1
+// @version      3.0.0
 // @description  A visual overlay to show errors in tile colors of a desired image in r/place
 // @author       github.com/TotoShampoin
 // @match        https://garlic-bread.reddit.com/embed*
@@ -10,20 +10,16 @@
 // @license      GPL-3.0
 // ==/UserScript==
 if (window.top !== window.self) {
-  window.addEventListener('load', () => {
-    const overlay = (function () {
-        const img = document.createElement("img");
-        img.src = "https://cdn.discordapp.com/attachments/1131271629377392772/1132630418701697034/hookypolicepixel2_punched.png";
-        img.style = "position: absolute;left:369px;top:872px; width: 16px; height: 22px; image-rendering: pixelated; opacity: 1";
-        console.log(img);
-        return img;
-    })();
+  function createTemplate(x, y, w, h, src) {
+    const img = document.createElement("img");
+    img.src = src; //"https://cdn.discordapp.com/attachments/1131271629377392772/1132630418701697034/hookypolicepixel2_punched.png";
+    img.style = `position: absolute;left:${x}px;top:${y}px; width: ${w}px; height: ${h}px; image-rendering: pixelated; opacity: 1`; // left:369px;top:872px;
+    console.log(img);
     window.addEventListener("keydown", e => {
       if(e.key === "t") {
-        console.log(overlay.style.opacity)
-        switch(overlay.style.opacity) {
-          case "1": overlay.style.opacity = "0"; break;
-          case "0": overlay.style.opacity = "1"; break;
+        switch(img.style.opacity) {
+          case "1": img.style.opacity = "0"; break;
+          case "0": img.style.opacity = "1"; break;
         }
       }
     });
@@ -34,6 +30,12 @@ if (window.top !== window.self) {
       .getElementsByTagName("garlic-bread-canvas")[0]
       .shadowRoot
       .children[0]
-      .appendChild(overlay);
+      .appendChild(img);
+  }
+
+  `left:2826;top:888`
+  window.addEventListener('load', () => {
+    createTemplate(869, 872, 16, 22, "https://cdn.discordapp.com/attachments/1131271629377392772/1132630418701697034/hookypolicepixel2_punched.png");
+    createTemplate(2826, 888, 17, 24, "https://cdn.discordapp.com/attachments/1133123525545316443/1133124695798067250/realhooky_punched.png");
 }, false);
 }
