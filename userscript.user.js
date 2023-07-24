@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/Place Overlay
 // @namespace    https://github.com/TotoShampoin/place-overlay-hypnohookup
-// @version      3.1.0
+// @version      3.1.1
 // @description  A visual overlay to show errors in tile colors of a desired image in r/place
 // @author       github.com/TotoShampoin
 // @match        https://garlic-bread.reddit.com/embed*
@@ -33,9 +33,9 @@ if (window.top !== window.self) {
       .appendChild(img);
   }
 
-  `left:2854;top:1072`
+  `left:2890;top:999`
   window.addEventListener('load', () => {
     createTemplate(869, 872, 16, 22, "https://cdn.discordapp.com/attachments/1131271629377392772/1132630418701697034/hookypolicepixel2_punched.png");
-    createTemplate(2854, 1072, 17, 24, "https://cdn.discordapp.com/attachments/1133123525545316443/1133124695798067250/realhooky_punched.png");
+    createTemplate(2890, 999, 17, 24, "https://cdn.discordapp.com/attachments/1133123525545316443/1133124695798067250/realhooky_punched.png");
 }, false);
 }
